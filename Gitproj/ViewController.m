@@ -13,6 +13,7 @@
 
 @property (nonatomic, strong) TestClass *testClass;
 -(void)sayHello;
+-(void)sayByeBye;
 @end
 
 @implementation ViewController
@@ -26,6 +27,9 @@
 -(void)sayHello
 {
     NSLog(@"Hello");
+}
+-(void)sayByeBye{
+    NSLog(@"Bye - Bye");
 }
 - (void)didReceiveMemoryWarning
 {
