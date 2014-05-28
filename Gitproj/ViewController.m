@@ -12,6 +12,7 @@
 @property (nonatomic) int sum;
 
 @property (nonatomic, strong) TestClass *testClass;
+-(void)sayByeBye;
 @end
 
 @implementation ViewController
@@ -19,9 +20,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self sayByeBye];
 	// Do any additional setup after loading the view, typically from a nib.
 }
-
+-(void)sayByeBye{
+    NSLog(@"Bye - Bye");
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
