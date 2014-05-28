@@ -21,6 +21,7 @@
 		C26329F61935B8FD007FEF9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C26329D81935B8FD007FEF9E /* UIKit.framework */; };
 		C26329FE1935B8FD007FEF9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C26329FC1935B8FD007FEF9E /* InfoPlist.strings */; };
 		C2632A001935B8FD007FEF9E /* GitprojTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C26329FF1935B8FD007FEF9E /* GitprojTests.m */; };
+		C2632A0B1935BB34007FEF9E /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = C2632A0A1935BB34007FEF9E /* TestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C26329FB1935B8FD007FEF9E /* GitprojTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitprojTests-Info.plist"; sourceTree = "<group>"; };
 		C26329FD1935B8FD007FEF9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C26329FF1935B8FD007FEF9E /* GitprojTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitprojTests.m; sourceTree = "<group>"; };
+		C2632A091935BB34007FEF9E /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+		C2632A0A1935BB34007FEF9E /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				C26329E61935B8FD007FEF9E /* Main.storyboard */,
 				C26329E91935B8FD007FEF9E /* ViewController.h */,
 				C26329EA1935B8FD007FEF9E /* ViewController.m */,
+				C2632A091935BB34007FEF9E /* TestClass.h */,
+				C2632A0A1935BB34007FEF9E /* TestClass.m */,
 				C26329EC1935B8FD007FEF9E /* Images.xcassets */,
 				C26329DB1935B8FD007FEF9E /* Supporting Files */,
 			);
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2632A0B1935BB34007FEF9E /* TestClass.m in Sources */,
 				C26329EB1935B8FD007FEF9E /* ViewController.m in Sources */,
 				C26329E51935B8FD007FEF9E /* AppDelegate.m in Sources */,
 				C26329E11935B8FD007FEF9E /* main.m in Sources */,
