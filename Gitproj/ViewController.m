@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+
+
 @interface ViewController ()
 @property (nonatomic) int sum;
 
@@ -22,6 +24,15 @@
 {
     [super viewDidLoad];
     [self sayByeBye];
+   
+    secViewController *sec=[[secViewController alloc]init];
+    sec.dele=self;
+    
+    [sec call];
+    
+//    [self.navigationController pushViewController:sec animated:YES];
+    
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 -(void)sayHello
@@ -30,6 +41,13 @@
 }
 -(void)sayByeBye{
     NSLog(@"Bye - Bye");
+}
+
+-(void)callmethod
+{
+    
+    NSLog(@"I am protocal");
+    
 }
 - (void)didReceiveMemoryWarning
 {

@@ -22,6 +22,8 @@
 		C26329FE1935B8FD007FEF9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C26329FC1935B8FD007FEF9E /* InfoPlist.strings */; };
 		C2632A001935B8FD007FEF9E /* GitprojTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C26329FF1935B8FD007FEF9E /* GitprojTests.m */; };
 		C2632A0B1935BB34007FEF9E /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = C2632A0A1935BB34007FEF9E /* TestClass.m */; };
+		C280EEEB19374ECB00EA5305 /* secViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C280EEEA19374ECB00EA5305 /* secViewController.m */; };
+		C2D82EDF19370451006D05D9 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D82EDE19370451006D05D9 /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,9 @@
 		C26329FF1935B8FD007FEF9E /* GitprojTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitprojTests.m; sourceTree = "<group>"; };
 		C2632A091935BB34007FEF9E /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
 		C2632A0A1935BB34007FEF9E /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
+		C280EEE919374ECB00EA5305 /* secViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secViewController.h; sourceTree = "<group>"; };
+		C280EEEA19374ECB00EA5305 /* secViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secViewController.m; sourceTree = "<group>"; };
+		C2D82EDE19370451006D05D9 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2D82EDF19370451006D05D9 /* StoreKit.framework in Frameworks */,
 				C26329D71935B8FD007FEF9E /* CoreGraphics.framework in Frameworks */,
 				C26329D91935B8FD007FEF9E /* UIKit.framework in Frameworks */,
 				C26329D51935B8FD007FEF9E /* Foundation.framework in Frameworks */,
@@ -104,6 +110,7 @@
 		C26329D31935B8FD007FEF9E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C2D82EDE19370451006D05D9 /* StoreKit.framework */,
 				C26329D41935B8FD007FEF9E /* Foundation.framework */,
 				C26329D61935B8FD007FEF9E /* CoreGraphics.framework */,
 				C26329D81935B8FD007FEF9E /* UIKit.framework */,
@@ -120,6 +127,8 @@
 				C26329E61935B8FD007FEF9E /* Main.storyboard */,
 				C26329E91935B8FD007FEF9E /* ViewController.h */,
 				C26329EA1935B8FD007FEF9E /* ViewController.m */,
+				C280EEE919374ECB00EA5305 /* secViewController.h */,
+				C280EEEA19374ECB00EA5305 /* secViewController.m */,
 				C2632A091935BB34007FEF9E /* TestClass.h */,
 				C2632A0A1935BB34007FEF9E /* TestClass.m */,
 				C26329EC1935B8FD007FEF9E /* Images.xcassets */,
@@ -257,6 +266,7 @@
 				C2632A0B1935BB34007FEF9E /* TestClass.m in Sources */,
 				C26329EB1935B8FD007FEF9E /* ViewController.m in Sources */,
 				C26329E51935B8FD007FEF9E /* AppDelegate.m in Sources */,
+				C280EEEB19374ECB00EA5305 /* secViewController.m in Sources */,
 				C26329E11935B8FD007FEF9E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -462,6 +472,7 @@
 				C2632A051935B8FD007FEF9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2632A061935B8FD007FEF9E /* Build configuration list for PBXNativeTarget "GitprojTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +481,7 @@
 				C2632A081935B8FD007FEF9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

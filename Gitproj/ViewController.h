@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "TestClass.h"
-@interface ViewController : UIViewController
+#import "secViewController.h"
+
+@interface ViewController : UIViewController<proto>
+
 
 
 @end
